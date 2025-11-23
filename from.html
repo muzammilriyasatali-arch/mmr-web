@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <h1>Teach Conference Registration Form</h1>
+        <form>
+            <fieldset>
+                <legend>Persnol Information</legend>
+                <label>full name </label>
+                <input type="name" placeholder="enter your name"><br><br>
+                <label for="">Email</label>
+                <input type="email" placeholder="your email"><br><br>
+                <label for="">Phone Number</label>
+                <input type="phone number" placeholder="phone number"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Cours Details</legend>
+                <p>Select Event Type</p>
+            <input type="radio" name="workshop" value="workshop">workshop
+            <input type="radio" name="seminar" value="seminar">seminar
+            <input type="radio" name="competition" value="competition">competition 
+            <p>Preferred Topics</p>    
+               <input type="checkbox">Web Development 
+                <input type="checkbox">Artifical Intelligence
+                <input type="checkbox">Cloud Computing
+                <label for="">Date of attendance</label>
+                <input type="date"><br><br>
+                <label for="">Session Time</label>
+                <input type="time"><br><br>
+
+            </fieldset>
+            <fieldset>
+                <legend>Payment Information</legend>
+                <label for="">Cardholder Name</label>
+                <input type="card" placeholder="Name on card"><br><br>
+                <label for="">Card number</label>
+                <input type="card number" placeholder="card number"><br><br>
+                <label for="">Expiry date</label>
+                <input type="expiry date"><br><br>
+                <label for="">CVV</label>
+                <input type="CVV">
+            </fieldset>
+            <fieldset>
+                <legend>Feedback</legend>
+                <textarea placeholder="Any additional comment....."></textarea>
+            </fieldset>
+            <button type="submit">
+                submit
+            </button>
+            <button type="reset">
+                reset
+            </button>
+        </form>
+    </body>
+</html>
